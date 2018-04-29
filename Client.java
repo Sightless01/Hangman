@@ -20,6 +20,7 @@ public class Client {
         word = hangman.startGame(name);
         System.out.println(word);
       } while(word.equals("Player Already exists."));
+
       while(true) {
         String key = "";
 
@@ -84,6 +85,5 @@ public class Client {
       e.printStackTrace();
     }
   }
-
 
 }
